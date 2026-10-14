@@ -1,0 +1,93 @@
+body {
+    background: #e5f2ef;
+    margin: 0;
+    padding: 10px;
+}
+
+.page {
+    width: 480px;
+    background: white;
+    margin: auto;
+    padding: 5px;
+    border: 3px solid lightblue;
+}
+
+.header {
+    background: turquoise;
+    color: teal;
+    text-align: right;
+    padding: 5px;
+    border: 2px solid lightblue;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.header p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.content {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    align-items: flex-start;
+}
+
+.friends {
+    background: turquoise;
+    border: 2px solid teal;
+    padding: 5px;
+    width: 95px;
+    flex-shrink: 0;
+    color: teal;
+}
+
+.friends h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.friends ul {
+    padding-left: 15px;
+    font-size: 9px;
+}
+
+.posts {
+    flex: 1;
+}
+
+.post {
+    background: lightcyan;
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: gray;
+    font-size: 10px;
+    overflow: auto;
+}
+
+.post h2 {
+    color: teal;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+    border-bottom: 1px dashed turquoise;
+}
+
+.post img {
+    width: 90px;
+    height: 70px;
+    object-fit: cover;
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+.post p {
+    margin: 5px 0;
+}
